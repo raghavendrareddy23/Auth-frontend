@@ -8,6 +8,7 @@ const Home = () => {
   const navigate = useNavigate();
   const [warningTimeoutID, setWarningTimeoutID] = useState(undefined);
   const [logoutTimeoutID, setLogoutTimeoutID] = useState(undefined);
+  // eslint-disable-next-line no-unused-vars
   const [lastActivity, setLastActivity] = useState(Date.now());
   const [userName, setUserName] = useState('');
   const [loading, setLoading] = useState(false);
